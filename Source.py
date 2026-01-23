@@ -1,9 +1,6 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-from IPython.display import Image, display
-
-display(Image(filename="pixel.png"))
 
 img = cv2.imread("pixel.png", 0)
 print(img)
